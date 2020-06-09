@@ -21,7 +21,7 @@ export function selectRandomBookmark(randItem) {
 }
 
 function arrayRandElement(arr) {
-    var rand = Math.floor(Math.random()*arr.length);
+    let rand = Math.floor(Math.random()*arr.length);
     return arr[rand];
 }
 
