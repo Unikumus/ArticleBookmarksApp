@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+
+body{
+  background-color: aliceblue !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  margin: 0 auto;
+  width: 1000px;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.topBar{
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.bookmarksItem{
+  width: 100%;
+  height: 50px;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 2px 4px 1px rgba(0,0,0,.18);
+  background: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.bookmarksItemTitle{
+  width: 830px;
+  margin-left: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputBar{
+  padding-top: 40px;
+
 }
+
+.searchBtn{
+  height: 46px;
+  width: 146px;
+}
+
+.inputWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 46px;
+}
+
+img:hover{
+  cursor: pointer;
+}
+
+h1{
+  color: #cbd1d6;
+}
+
+
