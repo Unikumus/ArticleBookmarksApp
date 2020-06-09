@@ -21,15 +21,15 @@ export function selectRandomBookmark(randItem) {
 }
 
 function arrayRandElement(arr) {
-    var rand = Math.floor(Math.random() * arr.length);
+    var rand = Math.floor(Math.random()*arr.length);
     return arr[rand];
 }
 
 
 export function fetchPosts(subreddit) {
     return async dispatch =>{
-      const response =await fetch(`https://www.reddit.com/r/${subreddit}.json`)
-        const json = await response.json()
+      const response =await fetch(`https://www.reddit.com/r/${subreddit}.json`);
+        const json = await response.json();
 
 if(json.data !== undefined){
 
