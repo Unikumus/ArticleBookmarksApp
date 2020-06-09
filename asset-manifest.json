@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ArticleBookmarksApp/static/css/main.7f11355f.chunk.css",
+    "main.js": "/ArticleBookmarksApp/static/js/main.ffecf0f9.chunk.js",
+    "main.js.map": "/ArticleBookmarksApp/static/js/main.ffecf0f9.chunk.js.map",
+    "runtime-main.js": "/ArticleBookmarksApp/static/js/runtime-main.7e287013.js",
+    "runtime-main.js.map": "/ArticleBookmarksApp/static/js/runtime-main.7e287013.js.map",
+    "static/js/2.49375d86.chunk.js": "/ArticleBookmarksApp/static/js/2.49375d86.chunk.js",
+    "static/js/2.49375d86.chunk.js.map": "/ArticleBookmarksApp/static/js/2.49375d86.chunk.js.map",
+    "index.html": "/ArticleBookmarksApp/index.html",
+    "precache-manifest.cd066f0add71bc77dd579b5b6dccc539.js": "/ArticleBookmarksApp/precache-manifest.cd066f0add71bc77dd579b5b6dccc539.js",
+    "service-worker.js": "/ArticleBookmarksApp/service-worker.js",
+    "static/css/main.7f11355f.chunk.css.map": "/ArticleBookmarksApp/static/css/main.7f11355f.chunk.css.map",
+    "static/js/2.49375d86.chunk.js.LICENSE.txt": "/ArticleBookmarksApp/static/js/2.49375d86.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e287013.js",
+    "static/js/2.49375d86.chunk.js",
+    "static/css/main.7f11355f.chunk.css",
+    "static/js/main.ffecf0f9.chunk.js"
+  ]
+}
